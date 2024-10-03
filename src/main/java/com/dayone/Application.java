@@ -1,25 +1,18 @@
 package com.dayone;
 
-import com.dayone.model.ScrapedResult;
-import org.jsoup.Connection;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.io.IOException;
-
-//@SpringBootApplication
+@SpringBootApplication
 public class Application {
 
-	public static void main(String[] args) {
-		//SpringApplication.run(Application.class, args);
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
 
-		//String s = "Hello my name is Grace";
+        //	Scraper scraper = new YahooFinanceScraper();
+        //	var result = scraper.scrap(Company.builder().ticker("COKE").build());
 
-		System.out.println(new ScrapedResult());
-
-	}
+        //	var result = scraper.scrapCompanyByTicker("MMM");
+        //	System.out.println(result);
+    }
 }
