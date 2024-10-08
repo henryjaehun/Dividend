@@ -20,8 +20,14 @@ spring:
   datasource:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:dayone;DB_CLOSE_DELAY=-1
-    username: sa
+    username: root
     password:
+
+
+  redis:
+    host: localhost
+    port: 6379
+
 
 scheduler:
   scrap:
